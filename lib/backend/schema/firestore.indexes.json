@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "items",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "price",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "products",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
